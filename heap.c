@@ -4,10 +4,6 @@
 #include <stdbool.h>
 #include "heap.h"
 
-/* Your Heap implementation here */
-// Some of these functions are not mentioned in the writeup
-// but are useful helper functions that you can use 
-
 bool existsAndLessThan(Heap* h,int index1, int index2){
 
 	if(index1 >= h->size || index1 < 0){return false;}
