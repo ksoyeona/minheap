@@ -3,12 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* 
- * Add your tests here
- * A few sample tests 
- * are provided
- */
-
 void TestHeap(CuTest *tc) {
 	Heap* h = makeHeap(10);
 	CuAssertIntEquals(tc, 0, h->size);
@@ -173,8 +167,6 @@ CuSuite* StrUtilGetSuite() {
 	return suite;
 }
 
-
-// Don't edit below this line
 
 void RunAllTests(void) {
 	CuString *output = CuStringNew();
